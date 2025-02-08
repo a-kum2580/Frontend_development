@@ -1,0 +1,76 @@
+/*Universal selector*/
+* {
+    color: burlywood
+}
+
+/*Element select*/
+h2 {
+    color: maroon;
+    font-size: 40px;
+}
+li {
+    font-size: 15px;
+    color: blueviolet;
+}
+/* 1. Page Background and Text Color */
+body {
+    background-color: #f8f9fa; /* Light gray background */
+    color: #333; /* Dark gray text */
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+/* 2. Header Styling */
+h1, h2 {
+    color: maroon; /* Blue text */
+    font-weight: bold;
+    font-family: kahoo;
+}
+
+/* 3. Paragraph Styling */
+p {
+    line-height: 1.6;
+    font-size: 16px;
+    margin-bottom: 15px;
+    color:blueviolet
+}
+
+
+/* 5. Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: #e6f7ff; /* Light blue background */
+}
+
+th, td {
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #0073e6;
+    color: white;
+    font-size: 18px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+/*Class selector*/
+.buttons {
+    color:aqua;
+    background-color: #333;
+}
+
+/* ID selectors*/
+#main-title {
+    color: moccasin;
+}
+/*Grouping selector*/
+h1,h2,h3{
+    background-color: azure;
+}
